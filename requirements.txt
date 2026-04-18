@@ -1,0 +1,7 @@
+requests
+schedule
+beautifulsoup4
+lxml
+matplotlib
+numpy
+pillow

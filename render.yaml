@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: stock-signal-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python stock_signal_bot.py
+    plan: free
